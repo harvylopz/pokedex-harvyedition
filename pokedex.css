@@ -1,0 +1,222 @@
+#contenedor-principal{
+    display: flex;
+    justify-content: center;
+   
+    padding: 1rem;
+}
+
+#pokedex{
+    padding: 10px;
+    border-radius: 1%;
+    background-color: red;
+    width: 300px;
+    height: 480px;
+
+}
+
+#nav{
+    display: flex;
+    
+    height: 80px;
+    padding: 5px;
+    margin: 0;
+}
+
+#esfera-lateral-superior{
+    position: relative;
+    margin: 5px ;
+    padding: 5px;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgb(68, 67, 67);
+
+}
+
+#esfera-interna{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    width: 55px;
+    background-color: rgb(71, 214, 233);
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+    box-shadow: 0px 0px 5px black;
+
+    
+
+}
+
+#contenedor-bolitas{
+    display: flex;
+    width: 80px;
+    height: 20px;
+    margin: 5px;
+}
+
+.bolitas{
+    
+    width: 20px;
+    height: 20px;
+    margin: 0 2px 0px 2px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px black;
+}
+
+#bola1{
+    background-color: red;
+}
+#bola2{
+    background-color: yellow;
+}
+#bola3{
+    background-color: green;
+}
+
+
+
+#marco-pantalla{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    width: 265px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+
+    
+}
+
+#pantalla{
+    margin-top: 16px;
+    width: 240px;
+    height: 200px;
+    background-color: black;
+}
+
+#contenedor-objetos-abajo-pantalla {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 240px;
+}
+#bola-roja{
+    margin-top: 3px;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+#tres-lineas-contenedor{
+
+}
+.linea-pantalla-abajo{
+    margin-top: 4px;
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    border-radius: 30%;
+}
+
+/* CONTROLES FINALES */
+
+#controles-finales-contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 20px;
+    
+    height: 90px;
+    width: 290px;
+}
+
+#contendor-boton-redondo-cajafinal{
+    
+    height: 90px;
+    width: 70px;
+}
+#boton-rendondo-cajafinal{
+    background-color: rgb(78, 78, 78);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#contenedor-pantalla-y-dos-botones-superior{
+    
+    height: 90px;
+    width: 120px;
+
+}
+#contenedor-botones-select-start{
+    display: flex;
+    padding: 4px;
+}
+#boton-select{
+    margin-right: 3px;
+    background-color: rgb(209, 3, 3);
+    height: 7px;
+    width: 45px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(17, 17, 17,50%);
+}
+#boton-start{
+    margin-left: 3px;
+    background-color: rgb(1, 1, 194);
+    height: 7px;
+    width: 45px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(17, 17, 17,50%);
+}
+#contenedor-pantalla-inferior{
+
+}
+#pantalla-inferior{
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(39, 78, 24);
+    width: 90px;
+    height: 60px;
+    box-shadow: 2px 2px 5px rgba(17, 17, 17,50%);
+}
+
+#contenedor-control-direccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 90px;
+    width: 100px;
+
+}
+
+#cross {
+    border-radius: 3px;
+    background: black;
+    height: 70px;
+    position: relative;
+    width: 22px;
+  }
+  #cross:after {
+    border-radius: 3px;
+    background: black;
+    content: "";
+    left: -23px;
+    top: 23px;
+    position: absolute;
+    height: 22px;
+    width: 70px;
+  }
+
+/* CONTROLES FINALES */
