@@ -7,45 +7,63 @@
     <title>Pokedex [HarvyEdition]</title>
     <link rel="stylesheet" href="pokedex.css">
 </head>
+
 <body>
     
-    <main id="contenedor-principal">
+    <main id="main-container">
         
         <div id="pokedex">
             <div id="nav">
-                <div id="esfera-lateral-superior">
-                    <div id="esfera-interna"></div>
+                <div id="upper-side-dial">
+                    <div id="internal-order"></div>
                 </div>
-                <div id="contenedor-bolitas">
-                    <div class="bolitas" id="bola1"></div>
-                    <div class="bolitas" id="bola2"></div>
-                    <div class="bolitas" id="bola3"></div>
+                <div id="ball-container">
+                    <div class="balls" id="ball01"></div>
+                    <div class="balls" id="ball02"></div>
+                    <div class="balls" id="ball03"></div>
                 </div>
             </div>
 
-            <div id="marco-pantalla">
-                <div id="pantalla"></div>
-                <div id="contenedor-objetos-abajo-pantalla">
-                    <div id="bola-roja"></div>
-                    <div id="tres-lineas-contenedor">
-                        <div class="linea-pantalla-abajo"></div>
-                        <div class="linea-pantalla-abajo"></div>
-                        <div class="linea-pantalla-abajo"></div>
+            <div id="screen-frame">
+                <div id="screen" class="screen">
+
+                    <!-- Here is the content of the screen -->
+
+                    <div id="pokemon-pic">
+                        <div id="pokemon-pic-front" class="pokemon-pics"></div>
+                        <div id="pokemon-pic-back" class="pokemon-pics"></div>
+                    </div>
+                    <div id="pokemon-info">
+                        
+                    </div>
+
+
+                    <!-- Here is the content of the screen -->
+
+                </div>
+                <div id="container-object-down-screen">
+                    <div id="red-ball"></div>
+                    <div id="three-line-container">
+                        <div class="line-screen-down"></div>
+                        <div class="line-screen-down"></div>
+                        <div class="line-screen-down"></div>
                     </div>
                 </div>
             </div>
 
-            <div id="controles-finales-contenedor">
-                <div id="contendor-boton-redondo-cajafinal">
-                    <div id="boton-rendondo-cajafinal"></div>
+            <div id="controls-end-container">
+                <div id="container-button-circle-endbox">
+                    <div onclick="userSelect()" id="buttom-endhappy">
+                      
+                    </div>
                 </div>
-                <div id="contenedor-pantalla-y-dos-botones-superior">
+                <div id="container-screen-buttom02">
                     <div id="contenedor-botones-select-start">
                         <div id="boton-select"></div>
                         <div id="boton-start"></div>
                     </div>
-                    <div id="contenedor-pantalla-inferior">
-                        <div id="pantalla-inferior"></div>
+                    <div id="contenedor-screen-inferior">
+                        <div id="screen-inferior"></div>
                     </div>
                 </div>
                 <div id="contenedor-control-direccion">
@@ -54,6 +72,6 @@
             </div>
         </div>
     </main>
-
+    <script src="pokedex.js"></script>
 </body>
 </html>

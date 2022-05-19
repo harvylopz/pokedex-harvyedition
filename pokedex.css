@@ -1,4 +1,4 @@
-#contenedor-principal{
+#main-container{
     display: flex;
     justify-content: center;
    
@@ -22,7 +22,7 @@
     margin: 0;
 }
 
-#esfera-lateral-superior{
+#upper-side-dial{
     position: relative;
     margin: 5px ;
     padding: 5px;
@@ -34,7 +34,7 @@
 
 }
 
-#esfera-interna{
+#internal-order{
     position: absolute;
     margin: 0;
     padding: 0;
@@ -50,14 +50,14 @@
 
 }
 
-#contenedor-bolitas{
+#ball-container{
     display: flex;
     width: 80px;
     height: 20px;
     margin: 5px;
 }
 
-.bolitas{
+.balls{
     
     width: 20px;
     height: 20px;
@@ -66,19 +66,19 @@
     box-shadow: 0px 0px 4px black;
 }
 
-#bola1{
+#ball01{
     background-color: red;
 }
-#bola2{
+#ball02{
     background-color: yellow;
 }
-#bola3{
+#ball03{
     background-color: green;
 }
 
 
 
-#marco-pantalla{
+#screen-frame{
     margin-right: auto;
     margin-left: auto;
     background-color: white;
@@ -93,20 +93,42 @@
     
 }
 
-#pantalla{
+#screen{
+    display: flex;
     margin-top: 16px;
     width: 240px;
     height: 200px;
-    background-color: black;
+    background-color: rgb(218, 218, 218);
 }
 
-#contenedor-objetos-abajo-pantalla {
+#pokemon-pic{
+    
+}
+.pokemon-pics{
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    
+    width: 96px;
+    height: 96px;
+    
+}
+
+
+#pokemon-pic-front{}
+#pokemon-pic-back{}
+#pokemon-info{
+    margin: 10px;
+
+
+}
+
+#container-object-down-screen {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     width: 240px;
 }
-#bola-roja{
+#red-ball{
     margin-top: 3px;
     background-color: red;
     border-radius: 50%;
@@ -114,10 +136,10 @@
     height: 20px;
 }
 
-#tres-lineas-contenedor{
+#three-line-container{
 
 }
-.linea-pantalla-abajo{
+.line-screen-down{
     margin-top: 4px;
     width: 50px;
     height: 5px;
@@ -127,7 +149,7 @@
 
 /* CONTROLES FINALES */
 
-#controles-finales-contenedor{
+#controls-end-container{
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -137,12 +159,12 @@
     width: 290px;
 }
 
-#contendor-boton-redondo-cajafinal{
+#container-button-circle-endbox{
     
     height: 90px;
     width: 70px;
 }
-#boton-rendondo-cajafinal{
+#buttom-endhappy{
     background-color: rgb(78, 78, 78);
     height: 50px;
     width: 50px;
@@ -152,7 +174,7 @@
     box-shadow: 3px 3px 5px black;
 }
 
-#contenedor-pantalla-y-dos-botones-superior{
+#container-screen-buttom02{
     
     height: 90px;
     width: 120px;
@@ -178,10 +200,10 @@
     border-radius: 4px;
     box-shadow: 2px 2px 5px rgba(17, 17, 17,50%);
 }
-#contenedor-pantalla-inferior{
+#contenedor-screen-inferior{
 
 }
-#pantalla-inferior{
+#screen-inferior{
     margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
