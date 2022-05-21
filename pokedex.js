@@ -25,11 +25,10 @@ fetch("https://pokeapi.co/api/v2/pokemon/" + number_pokemon)
 	.then(data => insertText("Height: " + data.height , "pokemon-info"))
 }
 
-writeInfo(numberSelect)
+
 
 function userSelect(){
-  let numberPokemon = prompt("Please enter number pokemon");
-  writeInfo(numberPokemon)
+  document.location.reload(true);
 }
 
 function insertText(text, divSelection){
@@ -47,3 +46,5 @@ function insertPicture(picture, div_selection){
 	div.appendChild(img);
 }
 
+let numberPokemon = prompt("Please enter number pokemon");
+  writeInfo(numberPokemon)
