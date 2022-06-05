@@ -2,6 +2,8 @@ var numberSelect = "1";
 
 function writeInfo(number_pokemon){
   // InsertPicture
+
+
 fetch("https://pokeapi.co/api/v2/pokemon/" + number_pokemon)
 	.then(Response => Response.json())
 	.then(data => insertPicture(data.sprites.front_default, "pokemon-pic-front"))
@@ -25,6 +27,14 @@ fetch("https://pokeapi.co/api/v2/pokemon/" + number_pokemon)
 	.then(data => insertText("Height: " + data.height , "pokemon-info"))
 }
 
+// funcion para selecionar una numero de 1 al 850 al azar
+function randomNumber(){
+	numberSelect = Math.floor(Math.random() * 851) + 1;
+	writeInfo(numberSelect);
+}
+
+
+
 
 
 function userSelect(){
@@ -33,9 +43,9 @@ function userSelect(){
 
 function insertText(text, divSelection){
 	var node = document.getElementById(divSelection);
-  var newNode = document.createElement('p');
-  newNode.appendChild(document.createTextNode(text));
-  node.appendChild(newNode);
+  	var newNode = document.createElement('p');
+  	newNode.appendChild(document.createTextNode(text));
+  	node.appendChild(newNode);
 }
 
 
@@ -44,7 +54,20 @@ function insertPicture(picture, div_selection){
 	img.src = picture;
 	var div = document.getElementById(div_selection);
 	div.appendChild(img);
+	
 }
 
 let numberPokemon = prompt("Please enter number pokemon");
-  writeInfo(numberPokemon)
+if(numberPokemon > 0 && numberPokemon < 851){
+	writeInfo(numberPokemon);
+} else {
+	randomNumber();
+}
+
+
+
+
+
+
+
+
