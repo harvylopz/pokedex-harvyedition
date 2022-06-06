@@ -117,7 +117,8 @@
 #pokemon-pic-front{}
 #pokemon-pic-back{}
 #pokemon-info{
-    margin: 10px;
+    margin: px;
+    line-height: 0.8;
 
 
 }

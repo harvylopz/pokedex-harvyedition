@@ -25,7 +25,21 @@ fetch("https://pokeapi.co/api/v2/pokemon/" + number_pokemon)
 fetch("https://pokeapi.co/api/v2/pokemon/" + number_pokemon)
 	.then(Response => Response.json())
 	.then(data => insertText("Height: " + data.height , "pokemon-info"))
+
+fetch("https://pokeapi.co/api/v2/pokemon/" + number_pokemon)
+	.then(Response => Response.json())
+	.then(data => insertText("Type: " + data.types[0].type.name , "pokemon-info"))
+
+fetch("https://pokeapi.co/api/v2/pokemon/" + number_pokemon)
+	.then(Response => Response.json())
+	.then(data => insertText("Abilities: " + data.abilities[0].ability.name , "pokemon-info"))
+
+fetch("https://pokeapi.co/api/v2/pokemon/" + number_pokemon)
+	.then(Response => Response.json())
+	.then(data => insertText("Number pokemon: " + data.id , "pokemon-info"))
+
 }
+
 
 // funcion para selecionar una numero de 1 al 850 al azar
 function randomNumber(){
