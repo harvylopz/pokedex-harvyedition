@@ -47,12 +47,23 @@ function randomNumber(){
 	writeInfo(numberSelect);
 }
 
-
+//Function that cleans the written in dom by javascript
+function clean(){
+	
+}
 
 
 
 function userSelect(){
-  document.location.reload(true);
+	document.getElementById("pokemon-info").innerHTML = "";
+	document.getElementById("pokemon-pic-front").innerHTML = "";
+	document.getElementById("pokemon-pic-back").innerHTML = "";
+	let numberPokemon = prompt("Please enter number pokemon");
+	if(numberPokemon > 0 && numberPokemon < 851){
+		writeInfo(numberPokemon);
+	} else {
+		randomNumber();
+	}
 }
 
 function insertText(text, divSelection){
@@ -71,12 +82,7 @@ function insertPicture(picture, div_selection){
 	
 }
 
-let numberPokemon = prompt("Please enter number pokemon");
-if(numberPokemon > 0 && numberPokemon < 851){
-	writeInfo(numberPokemon);
-} else {
-	randomNumber();
-}
+
 
 
 
