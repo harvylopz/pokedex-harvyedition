@@ -55,6 +55,7 @@ function clean(){
 
 
 function userSelect(){
+	
 	document.getElementById("pokemon-info").innerHTML = "";
 	document.getElementById("pokemon-pic-front").innerHTML = "";
 	document.getElementById("pokemon-pic-back").innerHTML = "";
@@ -82,12 +83,17 @@ function insertPicture(picture, div_selection){
 	
 }
 
+function animationButtonSelectPokemon(){
+	for(var i = 0; i < 100; i++){
+		setInterval(function(){
+			document.getElementById("buttom-endhappy").style.backgroundColor = "rgb(63,63, 63)";
+		}, 750);
+		setInterval(function(){
+			document.getElementById("buttom-endhappy").style.backgroundColor = "rgb(78, 78, 78)";
+		}, 1500);
+	}	
+}
 
-
-
-
-
-
-
+animationButtonSelectPokemon();
 
 
