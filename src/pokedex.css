@@ -1,245 +1,226 @@
-#main-container{
-    display: flex;
-    justify-content: center;
-   
-    padding: 1rem;
+#main-container {
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem;
 }
 
-#pokedex{
-    padding: 10px;
-    border-radius: 1%;
-    background-color: red;
-    width: 300px;
-    height: 480px;
-
+#pokedex {
+  padding: 10px;
+  border-radius: 1%;
+  background-color: red;
+  width: 300px;
+  height: 480px;
 }
 
-#nav{
-    display: flex;
-    
-    height: 80px;
-    padding: 5px;
-    margin: 0;
+#nav {
+  display: flex;
+
+  height: 80px;
+  padding: 5px;
+  margin: 0;
 }
 
-#upper-side-dial{
-    position: relative;
-    margin: 5px ;
-    padding: 5px;
-    background-color: white;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px rgb(68, 67, 67);
-
+#upper-side-dial {
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgb(68, 67, 67);
 }
 
-#internal-order{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 55px;
-    width: 55px;
-    background-color: rgb(71, 214, 233);
-    border-radius: 50%;
-    top: 10%;
-    left: 10%;
-    box-shadow: 0px 0px 5px black;
-
-    
-
+#internal-order {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 55px;
+  width: 55px;
+  background-color: rgb(71, 214, 233);
+  border-radius: 50%;
+  top: 10%;
+  left: 10%;
+  box-shadow: 0px 0px 5px black;
 }
 
-#ball-container{
-    display: flex;
-    width: 80px;
-    height: 20px;
-    margin: 5px;
+#ball-container {
+  display: flex;
+  width: 80px;
+  height: 20px;
+  margin: 5px;
 }
 
-.balls{
-    
-    width: 20px;
-    height: 20px;
-    margin: 0 2px 0px 2px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 4px black;
+.balls {
+  width: 20px;
+  height: 20px;
+  margin: 0 2px 0px 2px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px black;
 }
 
-#ball01{
-    background-color: red;
+#ball01 {
+  background-color: red;
 }
-#ball02{
-    background-color: yellow;
+#ball02 {
+  background-color: yellow;
 }
-#ball03{
-    background-color: green;
-}
-
-
-
-#screen-frame{
-    margin-right: auto;
-    margin-left: auto;
-    background-color: white;
-    width: 265px;
-    height: 265px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 15px;
-    padding: 5px;
-
-    
+#ball03 {
+  background-color: green;
 }
 
-#screen{
-    display: flex;
-    margin-top: 16px;
-    width: 240px;
-    height: 200px;
-    background-color: rgb(218, 218, 218);
+#screen-frame {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  width: 265px;
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5px;
 }
 
-#pokemon-pic{
-    
-}
-.pokemon-pics{
-    margin-top: 2.5px;
-    margin-left: 2.5px;
-    
-    width: 96px;
-    height: 96px;
-    
+#screen {
+  display: flex;
+  margin-top: 16px;
+  width: 240px;
+  height: 200px;
+  background-color: rgb(218, 218, 218);
 }
 
+#pokemon-pic {
+}
+.pokemon-pics {
+  margin-top: 2.5px;
+  margin-left: 2.5px;
 
-#pokemon-pic-front{}
-#pokemon-pic-back{}
-#pokemon-info{
-    margin: px;
-    line-height: 0.8;
+  width: 96px;
+  height: 96px;
+}
 
-
+#pokemon-pic-front {
+}
+#pokemon-pic-back {
+}
+#pokemon-info {
+  margin: px;
+  line-height: 0.8;
 }
 
 #container-object-down-screen {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    width: 240px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 240px;
 }
-#red-ball{
-    margin-top: 3px;
-    background-color: red;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
+#red-ball {
+  margin-top: 3px;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
 }
 
-#three-line-container{
-
+#three-line-container {
 }
-.line-screen-down{
-    margin-top: 4px;
-    width: 50px;
-    height: 5px;
-    background-color: black;
-    border-radius: 30%;
+.line-screen-down {
+  margin-top: 4px;
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  border-radius: 30%;
 }
 
 /* CONTROLES FINALES */
 
-#controls-end-container{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    margin-top: 20px;
-    
-    height: 90px;
-    width: 290px;
+#controls-end-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 20px;
+
+  height: 90px;
+  width: 290px;
 }
 
-#container-button-circle-endbox{
-    
-    height: 90px;
-    width: 70px;
+#container-button-circle-endbox {
+  height: 90px;
+  width: 70px;
 }
-#buttom-endhappy{
-    background-color: rgb(78, 78, 78);
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 5px;
-    box-shadow: 3px 3px 5px black;
-}
-
-#container-screen-buttom02{
-    
-    height: 90px;
-    width: 120px;
-
-}
-#contenedor-botones-select-start{
-    display: flex;
-    padding: 4px;
-}
-#boton-select{
-    margin-right: 3px;
-    background-color: rgb(209, 3, 3);
-    height: 7px;
-    width: 45px;
-    border-radius: 4px;
-    box-shadow: 2px 2px 5px rgba(17, 17, 17,50%);
-}
-#boton-start{
-    margin-left: 3px;
-    background-color: rgb(1, 1, 194);
-    height: 7px;
-    width: 45px;
-    border-radius: 4px;
-    box-shadow: 2px 2px 5px rgba(17, 17, 17,50%);
-}
-#contenedor-screen-inferior{
-
-}
-#screen-inferior{
-    margin-top: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: rgb(39, 78, 24);
-    width: 90px;
-    height: 60px;
-    box-shadow: 2px 2px 5px rgba(17, 17, 17,50%);
+#buttom-endhappy {
+  background-color: rgb(78, 78, 78);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 5px;
+  box-shadow: 3px 3px 5px black;
 }
 
-#contenedor-control-direccion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    height: 90px;
-    width: 100px;
+#container-screen-buttom02 {
+  height: 90px;
+  width: 120px;
+}
+#contenedor-botones-select-start {
+  display: flex;
+  padding: 4px;
+}
+#boton-select {
+  margin-right: 3px;
+  background-color: rgb(209, 3, 3);
+  height: 7px;
+  width: 45px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(17, 17, 17, 50%);
+}
+#boton-start {
+  margin-left: 3px;
+  background-color: rgb(1, 1, 194);
+  height: 7px;
+  width: 45px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(17, 17, 17, 50%);
+}
+#contenedor-screen-inferior {
+}
+#screen-inferior {
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(39, 78, 24);
+  width: 90px;
+  height: 60px;
+  box-shadow: 2px 2px 5px rgba(17, 17, 17, 50%);
+}
 
+#contenedor-control-direccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 90px;
+  width: 100px;
 }
 
 #cross {
-    border-radius: 3px;
-    background: black;
-    height: 70px;
-    position: relative;
-    width: 22px;
-  }
-  #cross:after {
-    border-radius: 3px;
-    background: black;
-    content: "";
-    left: -23px;
-    top: 23px;
-    position: absolute;
-    height: 22px;
-    width: 70px;
-  }
+  border-radius: 3px;
+  background: black;
+  height: 70px;
+  position: relative;
+  width: 22px;
+}
+#cross:after {
+  border-radius: 3px;
+  background: black;
+  content: "";
+  left: -23px;
+  top: 23px;
+  position: absolute;
+  height: 22px;
+  width: 70px;
+}
 
 /* CONTROLES FINALES */
